@@ -8,11 +8,11 @@
 
 3. Store the files in your `downloads folder`. 
 
-> **Information**
+> [!NOTE]
 >
 > If you're on Arch or a Arch based distro do the following
 
-> **Warning**
+> [!WARNING]
 > 
 > Before running the below script, feel free to [inspect](https://github.com/Mandracord/ffxi-linux-installer/blob/main/lutris-fix) it first. 
 
@@ -61,7 +61,7 @@ Run the following command in a terminal or open your store app if you've already
 
 1. Repeat all the steps from "Install using Lutris" until you get to select what installer to use, pick "Windower 4 Live". 
 
-> **Warning**
+> [!WARNING]
 >
 > You must installed the game using the script called "Full (US) version with D8VK" else the Windower install script will fail
 
