@@ -15,6 +15,7 @@
 > [!WARNING]
 > 
 > Before running the below script, feel free to [inspect](https://github.com/Mandracord/ffxi-linux-installer/blob/main/lutris-fix) it first. 
+> There is also a good chance you already have this fix installed if you're on the latest release.
 
 1. Open a terminal and run the following command: `curl -fsSL https://mandracord.com/lutris-fix | sh` 
 *This will append a fix to your lutris installation to enable [this fix](https://forums.lutris.net/t/errno-104-connection-reset-by-peer/25137/12)* 
