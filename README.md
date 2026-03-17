@@ -10,7 +10,7 @@
 
 > [!NOTE]
 >
-> The following steps for Arch based systems is no longer needed, as Lutris has fixed the install issue upstream in version .20 (current version is .22 per 2026-03-17). Kept for documentation if users are for whatever reason on an older version.
+> The following steps for Arch based systems is no longer needed, as Lutris has fixed the install issue upstream in version .20 (current version is .22 per 2026-03-17). Kept for documentation if users are for whatever reason on an older version and python 3.14.x. Issue don't appear on 3.13 or older.
 
 >
 > ~~If you're on Arch or a Arch based distro do the following~~
