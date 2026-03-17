@@ -4,31 +4,37 @@
 
 1. First step is optional as Lutris can do this for you.
 
-2. Download our [download](https://vana-time.com/api/v1/downloads/ffxiDownload.sh) script or go to [PlayOnline](http://www.playonline.com/ff11us/download/media/install_win.html) website and download them manually. 
+2. Download the [download](https://vana-time.com/api/v1/downloads/ffxiDownload.sh) script from [vanatime](https://vana-time.com) or go to [PlayOnline](http://www.playonline.com/ff11us/download/media/install_win.html) website and download them manually. 
 
-3. Store the files in your `downloads folder`. 
+3. Store the files in your `downloads` folder. 
 
 > [!NOTE]
 >
-> If you're on Arch or a Arch based distro do the following
+> The following steps for Arch based systems is no longer needed, as Lutris has fixed the install issue upstream in version .20 (current version is .22 per 2026-03-17). Kept for documentation if users are for whatever reason on an older version.
 
-> [!WARNING]
+>
+> ~~If you're on Arch or a Arch based distro do the following~~
+
 > 
-> Before running the below script, feel free to [inspect](https://github.com/Mandracord/ffxi-linux-installer/blob/main/lutris-fix) it first. 
-> There is also a good chance you already have this fix installed if you're on the latest release.
+> ~~Before running the below script, feel free to [inspect](https://github.com/Mandracord/ffxi-linux-installer/blob/main/lutris-fix) it first.~~
+> ~~There is also a good chance you already have this fix installed if you're on the latest release.~~
 
-1. Open a terminal and run the following command: `curl -fsSL https://mandracord.com/lutris-fix | sh` 
-*This will append a fix to your lutris installation to enable [this fix](https://forums.lutris.net/t/errno-104-connection-reset-by-peer/25137/12)* 
+~~1. Open a terminal and run the following command: `curl -fsSL https://mandracord.com/lutris-fix | sh`~~
+~~*This will append a fix to your lutris installation to enable [this fix](https://forums.lutris.net/t/errno-104-connection-reset-by-peer/25137/12)*~~
 
 ![alt text](https://github.com/Mandracord/ffxi-linux-installer/blob/main/assets/1.png?raw=true)
 
-*TUI guide* 
+~~*TUI guide*~~
 
 ## Optional: Download ProtonPlus flatpak
 
 In order to sandbox wine and proton versions and switch between it's strongly recommended using some form of Proton manager, like ProtonPlus.
 
 Run the following command in a terminal or open your store app if you've already enabled Flatpak support: `flatpak install flathub com.vysp3r.ProtonPlus` 
+
+## Setup Flatpak
+
+Follow the instructions at https://flathub.org/setup
 
 ## Install using Lutris
 
